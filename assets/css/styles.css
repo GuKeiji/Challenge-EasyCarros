@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-home {
+    height: 13%;    
+    border-radius: 0px 0px 15px 15px;
+}
+
+.header-div {
+    height: 100%;
+    width: 75%;
+}
+
+.header-logo {
+    height: 70%;
+}
+
+.header-nav {
+    /* Alterar fonte */
+    width: 30%;
+}
+
+.header-nav a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Ubuntu', sans-serif;
+    color: #324156;
+}
+    
