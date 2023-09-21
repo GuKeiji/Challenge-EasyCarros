@@ -7,6 +7,7 @@
 .header-home {
     height: 13%;    
     border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 5px 5px #888;
 }
 
 .header-div {
@@ -19,7 +20,6 @@
 }
 
 .header-nav {
-    /* Alterar fonte */
     width: 30%;
 }
 
@@ -29,5 +29,43 @@
     font-size: large;
     font-family: 'Ubuntu', sans-serif;
     color: #324156;
+}
+
+main p, h1 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section-titulo-banner {
+    width: 100vw;
+    /* background-color: aqua; */
+    height: 100%;
+}
+
+.div-section {
+    height: 80%;
+    width: 75%;
+    /* background-color: bisque; */
+}
+
+.div-container-texts {
+    height: 50%;
+    /* background-color: brown; */
+}
+
+.h1-home {
+    font-weight: 900;
+    font-size: 3.1rem;
+    color: #324156;
+}
+
+.p-home {
+    width: 40%;
+    font-size: 1.3rem;
+    color: #939393;
+}
+
+.banner {
+    width: 40%;
+    height: 50%;
 }
     
