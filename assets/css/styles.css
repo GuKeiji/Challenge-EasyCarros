@@ -166,7 +166,7 @@ label {
     width: 75%;
 }
 
-.div-orcamento {
+.div-card {
     height: 100%;
     width: 49%;
     background-color: #fff;
@@ -217,8 +217,47 @@ label {
     height: 70%;
 }
 
+.section-assinatura {
+    height: 110vh;
+    width: 100vw;
+    /* background-color: antiquewhite; */
+}
 
+.div-container-assinatura {
+    height: 83%;
+    width: 75%;
+}
 
+.div-organize-assinatura {
+    height: 70%;
+}
 
+.btn-assinar {
+    border-radius: 110px;
+    height: 7vh;
+    border: none;
+    background-color: #0033CC;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+}
 
+.btn-assinar:hover {
+    background-color: #4f71d8;
+    color: #ffffff;
+}
+
+.valor-assinar {
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.div-selos{
+    height: 15%;
+}
+
+.selo {
+    width: 2vw;
+}
 /* FIM TELA RESERVA VEÍCULOS */
