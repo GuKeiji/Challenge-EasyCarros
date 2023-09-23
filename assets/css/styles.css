@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* TELA CADASTRO VEÍCULOS */
+
 .header-home {
     height: 10vh;    
     border-radius: 0px 0px 15px 15px;
@@ -94,7 +96,7 @@ main p, h1, h2, label {
     /* background-color: aqua; */
 }
 
-form input {
+.form-cadastro input {
     border-radius: 110px;
     padding-left: 4%;
     height: 6vh;
@@ -106,7 +108,7 @@ form input {
     margin-top: 5px;
 }
 
-form label {
+.form-cadastro label {
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -136,7 +138,7 @@ form label {
     color: #ffffff;
 }
 
-footer p {
+.footer-cadastro p {
     font-size: 1.3rem;
     color: #939393;
 }
@@ -144,3 +146,4 @@ footer p {
 .footer-cadastro {
     height: 20vh;
 }
+
