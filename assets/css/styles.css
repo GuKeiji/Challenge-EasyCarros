@@ -7,7 +7,7 @@
 /* TELA CADASTRO VEÍCULOS */
 
 .header-home {
-    height: 10vh;    
+    height: 10vh;
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 5px 5px #888;
 }
@@ -33,7 +33,10 @@
     color: #324156;
 }
 
-main p, h1, h2, label {
+main p,
+h1,
+h2,
+label {
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -147,3 +150,75 @@ main p, h1, h2, label {
     height: 20vh;
 }
 
+/* FIM TELA CADASTRO VEÍCULOS */
+
+/* TELA RESERVA VEÍCULOS */
+
+.section-orcamento {
+    height: 140vh;
+    width: 100vw;
+    /* background-color: antiquewhite; */
+
+}
+
+.div-container-orcamento {
+    height: 65%;
+    width: 75%;
+}
+
+.div-orcamento {
+    height: 100%;
+    width: 49%;
+    background-color: #fff;
+    opacity: 0.95;
+    border-radius: 30px;
+    border: #888 solid 1px;
+    box-shadow: 5px 5px 5px #888;
+}
+
+.form-orcamento input {
+    border-radius: 110px;
+    padding-left: 4%;
+    height: 6vh;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #888;
+    background-color: #f5f5f5;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 1;
+    margin-top: 5px;
+}
+
+.form-orcamento label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.form-orcamento {
+    height: 65%;
+    /* background-color: bisque; */
+}
+
+.div-organize-orcamento {
+    height: 70%;
+}
+
+.container-inputs-orcamento {
+    height: 60%;
+    /* background-color: #4f71d8; */
+}
+
+.div-organize-card {
+    height: 70%;
+    /* background-color: #0033CC; */
+}
+
+.img-card {
+    width: 100%;
+    height: 70%;
+}
+
+
+
+
+
+/* FIM TELA RESERVA VEÍCULOS */
