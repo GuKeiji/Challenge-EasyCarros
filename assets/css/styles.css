@@ -253,11 +253,193 @@ label {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.div-selos{
+.div-selos {
     height: 15%;
 }
 
 .selo {
     width: 2vw;
 }
+
 /* FIM TELA RESERVA VEÍCULOS */
+
+/* TELA LISTAR VEÍCULOS */
+.banner-listar {
+    width: 40%;
+    height: 60%;
+}
+
+.div-buscar {
+    width: 100%;
+    height: 10vh;
+    border: #888 1px solid;
+}
+
+.div-container-busca {
+    width: 75%;
+    height: 100%;
+    /* background-color: #75ff83; */
+}
+
+.input-pesquisa {
+    background-image: url(../images/icon-lupa.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    /* Ajuste a posição da imagem */
+    background-size: 8%;
+    border-radius: 110px;
+    padding-left: 10%;
+    height: 6vh;
+    width: 25%;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #888;
+    background-color: #f5f5f5;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 1;
+    margin-top: 5px;
+}
+
+.btn-busca {
+    border-radius: 110px;
+    height: 6vh;
+    border: none;
+    background-color: #0033CC;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    width: 25%;
+}
+
+.btn-busca:hover {
+    background-color: #4f71d8;
+    color: #ffffff;
+}
+
+.div-container-listagem {
+    height: 100vh;
+    width: 100%;
+}
+
+/* CARROSSEL */
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
+    height: 60%;
+    /* background-color: #0033CC; */
+}
+
+.wrapper i {
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+    z-index: 99999;
+}
+
+.wrapper i:active {
+    transform: translateY(-50%) scale(0.85);
+}
+
+.wrapper i:first-child {
+    left: -22px;
+}
+
+.wrapper i:last-child {
+    right: -22px;
+}
+
+.wrapper .carousel {
+    display: grid;
+    height: 100%;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 30px;
+    border-radius: 8px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    overflow-block: hidden;
+    align-items: center;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel.no-transition {
+    scroll-behavior: auto;
+}
+
+.carousel.dragging {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging .card {
+    cursor: grab;
+    user-select: none;
+}
+
+.carousel :where(.card, .img) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .card {
+    scroll-snap-align: start;
+    height: 80%;
+    list-style: none;
+    cursor: pointer;
+    padding-bottom: 15px;
+    flex-direction: column;
+    border: none;
+    /* background-color: #0033CC; */
+}
+
+
+.carousel .card h2 {
+    font-weight: 500;
+    font-size: 1.56rem;
+    margin: 30px 0 5px;
+}
+
+.carousel .card span {
+    font-size: 1.31rem;
+}
+
+.container-card {
+    height: 100%;
+    width: 100%;
+    opacity: 0.95;
+    border-radius: 30px;
+    border: #888 solid 1px;
+    box-shadow: 5px 5px 5px #888;
+}
+
+.icon-esquerda {
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+}
+
+.icon-direita {
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+}
+
+/* FIM CARROSSEL */
+
+/* FIM TELA LISTAR VEÍCULOS */
