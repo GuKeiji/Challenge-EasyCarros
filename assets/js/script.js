@@ -2,9 +2,9 @@ const wrapper = document.querySelector(".wrapper");
 const carousel = document.querySelector(".carousel");
 const firstCardWidth = carousel.querySelector(".card").offsetWidth;
 const cards = carousel.querySelectorAll(".card");
-const secondCard = cards[1]
 const arrowBtns = document.querySelectorAll(".wrapper i");
 const carouselChildrens = [...carousel.children];
+
 let isDragging = false, isAutoPlay = true, startX, startScrollLeft, timeoutId;
 let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
 carouselChildrens.slice(-cardPerView).reverse().forEach(card => {

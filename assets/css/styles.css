@@ -428,6 +428,12 @@ label {
     box-shadow: 5px 5px 5px #888;
 }
 
+.card:hover {
+    height: 400px;
+    /* background-color: #0033CC; */
+
+}
+
 .icon-esquerda {
     z-index: 9999;
     height: 100%;
