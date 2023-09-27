@@ -434,6 +434,18 @@ label {
 
 }
 
+.btn-reserva {
+    display: none;
+    border-radius: 110px;
+    height: 20%;
+    width: 80%;
+    border: none;
+    background-color: #0033CC;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+
 .icon-esquerda {
     z-index: 9999;
     height: 100%;

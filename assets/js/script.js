@@ -5,6 +5,17 @@ const cards = carousel.querySelectorAll(".card");
 const arrowBtns = document.querySelectorAll(".wrapper i");
 const carouselChildrens = [...carousel.children];
 
+cards.forEach((card) => {
+    const button = card.querySelector('.btn-reserva');
+
+    card.addEventListener('mouseover', () => {
+        button.style.display = 'block';
+    });
+
+    card.addEventListener('mouseout', () => {
+        button.style.display = 'none';
+    });
+});
 let isDragging = false, isAutoPlay = true, startX, startScrollLeft, timeoutId;
 let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
 carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
