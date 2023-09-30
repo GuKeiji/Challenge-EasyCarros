@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+p {
+    margin-bottom: 0px;
+}
+
 /* TELA CADASTRO VEÍCULOS */
 
 .header-home {
@@ -36,7 +40,9 @@
 main p,
 h1,
 h2,
-label {
+label,
+span,
+a {
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -516,20 +522,6 @@ h3 {
     /* background-color: aquamarine; */
 }
 
-.container-detalhes {
-    width: 40%;
-    height: 100%;
-    /* background-color:#4f71d8; */
-}
-
-.img-cartao {
-    width: 90%;
-}
-
-.container-inputs-pagamento {
-    
-}
-
 .input-1 {
     width: 70%;
 }
@@ -639,10 +631,91 @@ h3 {
 .container-termos h5 {
     color: #324156;
     font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
 }
 
-.container-termos p {
-    text-align: justify;
+.termos {
+    font-size: 19px;
+}
+
+.container-detalhes {
+    width: 40%;
+    height: 100%;
+    /* background-color:#4f71d8; */
+}
+
+.img-cartao {
+    width: 90%;
+}
+
+.container-reserva {
+    /* background-color: antiquewhite; */
+    height: 75%;
+    width: 90%;
+}
+
+.box-retirada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #888;
+    width: 100%;
+    height: 20%;
+}
+
+.box-retirada-oferta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #888;
+    width: 100%;
+    height: 30%;
+}
+
+.organize-box {
+    width: 80%;
+}
+
+.organize-box-oferta {
+    width: 80%;
+}
+
+.box-retirada span , p{
+    font-size: 20px;
+    width: 80%;
+}
+
+.organize-box span , a{
+    font-size: 25px;
+}
+
+.organize-box-oferta span , a{
+    font-size: 25px;
+}
+
+.span-oferta {
+    width: 80%;
+    font-size: 25px;
+
+}
+
+.box-total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #888;
+    width: 100%;
+    height: 30%;
+    background-color: #324156;
+}
+
+.box-total span {
+    font-size: 28px;
+    font-weight: bolder;
+    color: #fff;
 }
 
 /* FIM TELA PAGAMENTO */

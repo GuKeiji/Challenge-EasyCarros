@@ -81,11 +81,17 @@
                     </form>
                     <div class="container-termos d-flex flex-column justify-content-evenly">
                         <h5>Política de cancelamento:</h5>
-                        <p>Política de cancelamento:
-                            Essa tarifa garante uma condição de preço reduzida mediante a apresentação de um cartão de crédito válido, e aceite das condições de cancelamento abaixo: <br/>
-                            a) Para reservas canceladas com antecedência inferior a 48 horas do horário previsto para a retirada, será cobrada uma taxa de 15% do valor total da reserva (diárias, taxas, opcionais e seguros), limitado ao valor de 1 diária. <br/>
-                            b) Para reservas em que o cliente não compareça para retirada do veículo no dia agendado, será cobrada uma taxa de 25% do valor da reserva (diárias, taxas, opcionais e seguros), limitado ao valor de 1 diária. <br/>
-                            c) Caso realize o cancelamento da sua reserva em até 04 horas após a criação, não será cobrada taxa de cancelamento.
+                        <p class="termos">Política de cancelamento:
+                            Essa tarifa garante uma condição de preço reduzida mediante a apresentação de um cartão de
+                            crédito válido, e aceite das condições de cancelamento abaixo: <br />
+                            a) Para reservas canceladas com antecedência inferior a 48 horas do horário previsto para a
+                            retirada, será cobrada uma taxa de 15% do valor total da reserva (diárias, taxas, opcionais
+                            e seguros), limitado ao valor de 1 diária. <br />
+                            b) Para reservas em que o cliente não compareça para retirada do veículo no dia agendado,
+                            será cobrada uma taxa de 25% do valor da reserva (diárias, taxas, opcionais e seguros),
+                            limitado ao valor de 1 diária. <br />
+                            c) Caso realize o cancelamento da sua reserva em até 04 horas após a criação, não será
+                            cobrada taxa de cancelamento.
                         </p>
                         <div class="checkbox-pagamento">
                             <input id="check" type="checkbox">
@@ -96,49 +102,49 @@
                 </div>
                 <div class="container-detalhes d-flex flex-column align-items-center justify-content-between">
                     <img class="img-cartao" src="../../images/cartao.png" alt="Imagem de cartão">
-                    <div>
-                        <h3>Resumo da reserva</h3>
-                        <div>
-                            <div>
+                    <div class="container-reserva d-flex flex-column align-items-center">
+                        <h3 class="w-100 text-center">Resumo da reserva</h3>
+                        <div class="box-retirada">
+                            <div class="organize-box d-flex justify-content-between">
                                 <span>Retirada</span>
                                 <a>Editar</a>
                             </div>
-                            <p>03 de agosto de 2023 às 08:00</p>
+                            <span>03 de agosto de 2023 às 08:00</span>
                             <span>Ipiranga - São Paulo</span>
                         </div>
-                        <div>
-                            <div>
+                        <div class="box-retirada">
+                            <div class="organize-box d-flex justify-content-between">
                                 <span>Devolução</span>
                                 <a>Editar</a>
                             </div>
-                            <p>06 de agosto de 2023 às 08:00</p>
+                            <span>06 de agosto de 2023 às 08:00</span>
                             <span>Ipiranga - São Paulo</span>
                         </div>
-                        <div>
-                            <div>
+                        <div class="box-retirada">
+                            <div class="organize-box d-flex justify-content-between">
                                 <span>Veículo</span>
                                 <a>Editar</a>
                             </div>
-                            <p>Renault Duster</p>
+                            <span>Renault Duster</span>
                             <span>Elite Pass</span>
                         </div>
-                        <div>
-                            <span>Oferta</span>
-                            <div>
+                        <div class="box-retirada-oferta">
+                            <span class="span-oferta">Oferta</span>
+                            <div class="organize-box-oferta d-flex justify-content-between">
                                 <span>Diárias</span>
                                 <span>Total</span>
                             </div>
-                            <div>
+                            <div class="organize-box-oferta d-flex justify-content-between">
                                 <span>3x R$171,98</span>
                                 <span>R$515,94</span>
                             </div>
-                            <span>Taxas</span>
-                            <div>
+                            <span class="span-oferta">Taxas</span>
+                            <div class="organize-box-oferta d-flex justify-content-between">
                                 <span>3x R$20,98</span>
                                 <span> R$62,94</span>
                             </div>
                         </div>
-                        <div>
+                        <div class="box-total d-flex flex-column justify-content-evenly align-items-center">
                             <span>Valor total previsto</span>
                             <span>R$578,88</span>
                             <span>Em até 3x de R$192,96</span>
