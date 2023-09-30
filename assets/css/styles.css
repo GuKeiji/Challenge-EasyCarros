@@ -719,3 +719,208 @@ h3 {
 }
 
 /* FIM TELA PAGAMENTO */
+
+/* TELA LOGIN */
+
+.cor-login{
+    background-color: #0CDAC3;
+    height: 90vh;
+    width: 100%;
+}
+
+.logo-branca{   
+    height: 15%;
+    width: 15%;
+    margin: 3% 45% 5px;
+    align-items: center;
+
+}
+
+.l-nav{
+    width: 100%;
+    margin-top: 10px;
+    margin: 1px;
+}
+
+.form-login input {
+    margin: 1px 70px;
+    border-radius: 110px;
+    padding-left: 4%;
+    height: 6vh;
+    width: 90%;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #888;
+    background-color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 1;
+    margin-top: 3px;
+}
+
+.form-login label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.form-login {
+    height: 10%;
+    margin-top: 10% ;
+    align-items: center;
+
+
+    /* background-color: bisque; */
+}
+
+.btn-login {
+    margin-top: 15px;
+    border-radius: 110px;
+    height: 6vh;
+    width: 90%;
+    border: #0CDAC1 solid 1px;
+    background-color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    color: #0CDAC1;
+    font-weight: bold;
+    
+}
+
+.btn-login:hover {
+    background-color: #324156;
+    color: #ffffff;
+    border: #ffffff solid 1px;
+
+}
+
+
+.login-nav{
+        width: 95%;
+        margin-top: 10px;
+    }
+
+
+.login-nav a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Ubuntu', sans-serif;
+    color: #324156;
+}
+
+.icon{
+    font-size: 15px;
+    color: #fff;
+}
+/* FIM TELA LOGIN */
+
+/* TELA AVALIE SUA EXPERIÊNCIA */
+
+
+.div-section-experiencia {
+    height: 90%;
+    width: 90%;
+    margin-top: 10px;
+    /* background-color: bisque; */
+}
+
+.div-section-experiencia-reserva {
+    margin-top: 20px;
+}
+
+
+.h2-home {
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #324156;
+}
+
+.h3-home{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #324156;
+}
+
+.avaliacao{
+    margin-top: 50px;
+}
+
+.coment{
+    margin-top: 70px;
+
+}
+
+.comentario{
+    text-align: center;
+}
+
+.p-experiencia {
+    width: 100%;
+    font-size: 1.3rem;
+    color: #939393;
+    margin-left: 17%;
+}
+
+.star{
+    margin-left: 25%;
+}
+
+.icon-star{
+    font-size: 3rem;
+    margin-left: 3px;
+    color: #324156;
+}
+.icon-star:hover{
+    color: #fce305
+}
+.div-avaliar {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 1% 5%;
+    width: 95%;
+    height: 30vh;
+    border: #888 1px solid;
+    border-radius: 10px;
+    text-align:left;
+}
+
+.recomend{
+    margin-top: 30px;
+}
+
+.recomendar{
+    text-align: center;
+    padding: 0% 10%;
+}
+.nota-nav {
+    width: 100%;
+    align-items: center;
+    border: #888 1px solid;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-left: 3%;
+}
+
+.btn-nota{
+    height: 7vh;
+    border:none;
+    width: 50px;
+    background-color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    color: #888;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-nota:hover{
+    color: #0033CC;
+}
+
+.footer-experiencia p {
+    font-size: 1.3rem;
+    color: #939393;
+}
+
+.footer-experiencia {
+    height: 20vh;
+}
+
+
+/* FIM TELA AVALIE SUA EXPERIÊNCIA */
