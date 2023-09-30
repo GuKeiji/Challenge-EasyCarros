@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="../../js/script.js" defer></script>
+    <title>Easy Carros - Pagamento</title>
+</head>
+
+<body>
+    <header class="header-home d-flex justify-content-center align-items-center w-100">
+        <div class="d-flex header-div justify-content-between align-items-center">
+            <img class="header-logo" src="../../images/logo.png" alt="Logo do easy carros">
+            <nav class="header-nav d-flex align-items-center justify-content-between">
+                <a href="../listarCarros/index.html">Alugar Veículo</a>
+                <a href="../cadastroCarros/index.html">Cadastrar Veículos</a>
+            </nav>
+        </div>
+    </header>
+    <main class="h-100">
+        <section class="section-pagamento d-flex flex-column justify-content-evenly align-items-center w-100">
+            <h1 class="h1-home">Método de pagamento</h1>
+            <div class="div-subtitulo">
+                <h1 class="h1-home">Cartão de Crédito</h1>
+                <p>O cartão de crédito deve ser da mesma
+                    titularidade da pessoa cadastrada</p>
+            </div>
+        </section>
+        <div class="faixa-titulo w-100"></div>
+        <div class="div-container-pagamento d-flex flex-column align-items-center justify-content-evenly">
+            <h3>Adicionar um novo cartão de crédito:</h3>
+            <div class="div-organize-pagamento d-flex">
+                <div class="container-form-pagamento d-flex flex-column justify-content-between">
+                    <form class="form-pagamento d-flex flex-column justify-content-between" action="">
+                        <div class="container-inputs-pagamento d-flex justify-content-between">
+                            <input class="input-1" type="text" placeholder="Número do cartão">
+                            <input class="input-2" type="text" placeholder="Validade">
+                            <input class="input-3" type="text" placeholder="CVV">
+                        </div>
+                        <div class="container-inputs-pagamento d-flex justify-content-between">
+                            <input class="input-4" type="text" placeholder="Nome do titular do cartão">
+                            <input type="text" placeholder="CPF do titular">
+                        </div>
+                        <div class="input-pagamento d-flex justify-content-between">
+                            <label for="">Vale/Cupom de desconto:</label>
+                            <input type="text">
+                        </div>
+                        <div class="input-pagamento d-flex justify-content-between">
+                            <label for="">Número de parcelas:</label>
+                            <input type="text">
+                        </div>
+                        <h3>Endereço do titular:</h3>
+                        <div class="checkbox-pagamento">
+                            <input id="checkbox" type="checkbox">
+                            <label for="checkbox">Preencher com os dados de endereço do cadastro</label>
+                        </div>
+                        <div class="container-inputs-pagamento d-flex justify-content-between">
+                            <input class="input-5" type="text" placeholder="País">
+                            <input class="input-6" type="text" placeholder="CEP">
+                            <input class="input-7" type="text" placeholder="Endereço">
+                        </div>
+                        <div class="container-inputs-pagamento d-flex justify-content-between">
+                            <input class="input-8" type="text" placeholder="Nº">
+                            <input class="input-9" type="text" placeholder="Complemento">
+                            <input class="input-10" type="text" placeholder="Bairro">
+                        </div>
+                        <div class="container-inputs-pagamento d-flex justify-content-between">
+                            <input class="inputs-p" type="text" placeholder="Cidade">
+                            <input class="inputs-p" type="text" placeholder="Estado">
+                        </div>
+                        <button class="btn-salvar">Salvar cartão</button>
+                    </form>
+                    <div class="container-termos d-flex flex-column justify-content-evenly">
+                        <h5>Política de cancelamento:</h5>
+                        <p>Política de cancelamento:
+                            Essa tarifa garante uma condição de preço reduzida mediante a apresentação de um cartão de crédito válido, e aceite das condições de cancelamento abaixo: <br/>
+                            a) Para reservas canceladas com antecedência inferior a 48 horas do horário previsto para a retirada, será cobrada uma taxa de 15% do valor total da reserva (diárias, taxas, opcionais e seguros), limitado ao valor de 1 diária. <br/>
+                            b) Para reservas em que o cliente não compareça para retirada do veículo no dia agendado, será cobrada uma taxa de 25% do valor da reserva (diárias, taxas, opcionais e seguros), limitado ao valor de 1 diária. <br/>
+                            c) Caso realize o cancelamento da sua reserva em até 04 horas após a criação, não será cobrada taxa de cancelamento.
+                        </p>
+                        <div class="checkbox-pagamento">
+                            <input id="check" type="checkbox">
+                            <label for="check">Li e aceito a política de cancelamento</label>
+                        </div>
+                        <button class="btn-salvar">Reservar</button>
+                    </div>
+                </div>
+                <div class="container-detalhes d-flex flex-column align-items-center justify-content-between">
+                    <img class="img-cartao" src="../../images/cartao.png" alt="Imagem de cartão">
+                    <div>
+                        <h3>Resumo da reserva</h3>
+                        <div>
+                            <div>
+                                <span>Retirada</span>
+                                <a>Editar</a>
+                            </div>
+                            <p>03 de agosto de 2023 às 08:00</p>
+                            <span>Ipiranga - São Paulo</span>
+                        </div>
+                        <div>
+                            <div>
+                                <span>Devolução</span>
+                                <a>Editar</a>
+                            </div>
+                            <p>06 de agosto de 2023 às 08:00</p>
+                            <span>Ipiranga - São Paulo</span>
+                        </div>
+                        <div>
+                            <div>
+                                <span>Veículo</span>
+                                <a>Editar</a>
+                            </div>
+                            <p>Renault Duster</p>
+                            <span>Elite Pass</span>
+                        </div>
+                        <div>
+                            <span>Oferta</span>
+                            <div>
+                                <span>Diárias</span>
+                                <span>Total</span>
+                            </div>
+                            <div>
+                                <span>3x R$171,98</span>
+                                <span>R$515,94</span>
+                            </div>
+                            <span>Taxas</span>
+                            <div>
+                                <span>3x R$20,98</span>
+                                <span> R$62,94</span>
+                            </div>
+                        </div>
+                        <div>
+                            <span>Valor total previsto</span>
+                            <span>R$578,88</span>
+                            <span>Em até 3x de R$192,96</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
