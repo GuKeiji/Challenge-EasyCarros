@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <title>Easy Carros - Cadastro</title>
+</head>
+<body>
+  <header class="header-home d-flex justify-content-center align-items-center w-100">
+      <div class="d-flex header-div justify-content-between align-items-center">
+          <img class="header-logo" src="../../images/logo.png" alt="Logo do easy carros">
+          <nav class="header-nav d-flex align-items-center justify-content-between">
+              <a href="../listarCarros/index.html">Alugar Veículo</a>
+              <a href="../cadastroCarros/index.html">Cadastrar Veículos</a>
+          </nav>
+      </div>
+  </header>
+    <main>
+          <br><br><br><br>
+          <div class="container">
+            <h1 class="h1-cadastro">Cadastre-se<br><br>
+            <form>
+            <div class="form-group">
+                <label class="text" for="input-nome">Nome Completo</label>
+                <input type="text" class="form-control form-control-sm" placeholder="Digite o nome completo">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                  <label class="text" for="input-nascimento">Data de Nascimento</label>
+                  <input type="text" class="form-control form-control-sm" placeholder="DD/MM/AAAA">
+                </div>
+                <div class="form-group col-md-4">
+                  <label class="text" for="input-genero">Gênero</label>
+                  <input type="text" class="form-control form-control-sm" placeholder="Masculino">
+                </div>
+                <div class="form-group col-md-4">
+                  <label class="text" for="input-telefone">Telefone celular</label>
+                  <input type="text" class="form-control form-control-sm" placeholder="(00) 00000-0000">
+                </div>
+            </div>
+            <div class="form-group">
+              <label class="text" for="input-endereco">Endereço</label>
+              <input type="text" class="form-control form-control-sm" placeholder="Digite o endereço">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                  <label class="text" for="input-cep">CEP</label>
+                  <input type="text" class="form-control form-control-sm" placeholder="00000-000">
+                </div>
+                <div class="form-group col-md-3">
+                  <label class="text" for="input-numero">Número</label>
+                  <input type="text" class="form-control form-control-sm" placeholder="Digite o Número">
+                </div>
+                <div class="form-group col-md-7">
+                  <label class="text" for="input-complemento">Complemento</label>
+                  <input type="text" class="form-control form-control-sm" placeholder="Digite o Complemento">
+                </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-5">
+                <label class="text" for="input-bairro">Bairro</label>
+                <input type="text" class="form-control form-control-sm" placeholder="Digite o Bairro">
+              </div>
+              <div class="form-group col-md-6">
+                <label class="text" for="input-cidade">Cidade</label>
+                <input type="text" class="form-control form-control-sm" placeholder="Digite a Cidade">
+              </div>
+              <div class="form-group col-md-1">
+                <label class="text"for="input-uf">UF</label>
+                <input type="text" class="form-control form-control-sm" placeholder="SP">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label class="text" for="input-rg">RG</label>
+                <input type="text" class="form-control form-control-sm" placeholder="00.000.000-0">
+              </div>
+              <div class="form-group col-md-6">
+                <label class="text" for="input-cpf">CPF</label>
+                <input type="text" class="form-control form-control-sm" placeholder="000.000.000-00">
+              </div>
+            </div>
+            <br><br>
+            <h2 class="h2-cadastro">Habilitação<br><br>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label class="text" for="input-cnh">Número da CNH</label>
+                <input type="text" class="form-control form-control-sm" placeholder="00000000000">
+              </div>
+              <div class="form-group col-md-4">
+                <label class="text" for="input-categoria">Categoria</label>
+                <input type="text" class="form-control form-control-sm" placeholder="Digite a Categoria">
+              </div>
+              <div class="form-group col-md-4">
+                <label class="text" for="input-validade">Validade</label>
+                <input type="text" class="form-control form-control-sm" placeholder="DD/MM/AAAA">
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label class="text" for="input-orgaoexpedidor">Orgão Expedidor</label>
+                  <input type="text" class="form-control form-control-sm" placeholder="Digite Orgão Expedidor">
+                </div>
+                <div class="form-group col-md-5">
+                  <label class="text" for="input-cidade2">Cidade</label>
+                  <input type="text" class="form-control form-control-sm" placeholder="Digite a Cidade">
+                </div>
+                <div class="form-group col-md-1">
+                  <label class="text" for="input-uf2">UF</label>
+                  <input type="text" class="form-control form-control-sm" placeholder="SP">
+                </div>
+            </div>
+            <br>
+            <div class="form-select-lg">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="text" class="form-check-label" for="gridCheck">
+                  Aceito os termos e condições
+                </label>
+              </div>
+            </div><br>
+            <div class="btn btn-primary btn-lg btn-block">Quero me cadastrar</div>
+          </form>
+        </div>
+        
+    </main>
+    <footer class="footer-cadastro d-flex justify-content-center align-items-center w-100 ">
+        <hr>
+        <p>Copyright (c) 2023-2024 – Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
